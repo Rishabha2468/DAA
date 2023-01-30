@@ -4,7 +4,7 @@ int main()
 {
 int n;
 int arr[n][n];
-// int flag=0;
+
 
 printf("Enter number of nodes\n");
 scanf("%d",&n);
