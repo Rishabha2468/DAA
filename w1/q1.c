@@ -121,14 +121,28 @@ int main(){
     }
 
         printf("\nInorder: \n");
+        inorder(root);
+
+
         printf("Preorder: \n");
         preorder(root);
 
         printf("Postorder: \n");
         postorder(root);
-        inorder(root);
+      
 
         printf("\nEnter the Element to be Searched in the BST: \n");
         scanf("%d", &key);
         search(key,root);
+
+        printf("\nInorder: \n");
+        inorder(root);
+
+
+        printf("Preorder: \n");
+        preorder(root);
+
+        printf("Postorder: \n");
+        postorder(root);
+      
 }
